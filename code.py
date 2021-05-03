@@ -29,7 +29,7 @@ def explore_data(dataset, start, end, rows_and_columns=False):
 def duplicate_and_unique_movies(dataset, index_):
     """Check the duplicate and unique entries.
     
-    We have nested list. This function checks if the rows in the list is unique or duplicated based     on the element at index 'index_'.
+    We have nested list. This function checks if the rows in the list is unique or duplicated based on the element at index 'index_'.
     It prints the Number of duplicate entries, along with some examples of duplicated entry.
     
     Keyword arguments:
