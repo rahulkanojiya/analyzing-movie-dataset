@@ -1,4 +1,4 @@
-# --------------
+# -----------
 from csv import reader
 
 def explore_data(dataset, start, end, rows_and_columns=False):
@@ -164,7 +164,7 @@ for movie in movies:
         
 len(reviews_max)
 
-# Create a list 'movies_clean', which will filter out the duplicate movies and contain the rows with maximum number of reviews for duplicate movies, as stored in 'review_max'. 
+# Create a   list 'movies_clean', which will filter out the duplicate movies and contain the rows with maximum number of reviews for duplicate movies, as stored in 'review_max'. 
 
 movies_clean = []
 already_added = []
