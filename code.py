@@ -2,7 +2,7 @@
 from csv import reader
 
 def explore_data(dataset, start, end, rows_and_columns=False):
-    """Explore the elements of a list.
+    """Explore the elements of a list ..
     
     Print the elements of a list starting from the index 'start'(included) upto the index 'end'         (excluded).
     
