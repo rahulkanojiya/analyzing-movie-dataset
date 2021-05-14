@@ -117,7 +117,7 @@ movies = list(read_file)
 
 # The first row is header. Extract and store it in 'movies_header'.
 movies_header = movies[0]
-print("Movies Header:\n", movies_header)
+print("Movies Header:\n", movies_header) 
 
 # Subset the movies dataset such that the header is removed from the list and store it back in movies
 movies = movies[1:]
@@ -189,7 +189,7 @@ movies_en = movies_lang(movies_clean, 3, 'en')
 
 # Call the rate_bucket function to see the movies with rating higher than 8.
 
-high_rated_movies = rate_bucket(movies_en, 8, 10)
+high_rated_movies = rate_bucket(movies_en , 8, 10 )
 
 
 
